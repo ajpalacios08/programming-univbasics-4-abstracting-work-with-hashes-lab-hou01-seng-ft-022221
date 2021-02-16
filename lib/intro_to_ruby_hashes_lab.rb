@@ -12,7 +12,7 @@ def read_from_hash(hash, key)
     key: "Steve"
   }
   
-  read_from_hash{key}
+  read_from_hash{hash}
 end
 
 def update_counting_hash(hash, key)
